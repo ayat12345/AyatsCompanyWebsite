@@ -1,0 +1,81 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 16px;
+    border-bottom: 1px solid black;
+}
+
+li:hover {
+    background-color: black;
+}
+
+.navlinks {
+    background-color: rgb(80, 158, 204);
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.imagebanner {
+    background-image: url("images/Dental+Care+of+Brunswick+Logo.png");
+    padding: 170px 0;
+    background-size: cover;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+.introduction {
+    text-align: center;
+    color: gray;
+    font-size: 30px;
+}
+
+.h2banner {
+
+    background-color: black;
+
+}
+
+.statment{
+    padding: 30px;
+}
+
+img {
+    width: 275px;
+    height: 200px
+}
+
+.aboutus {
+    text-align: center;
+    margin: 32px;
+}
+
+@media screen and (min-width: 700px) {
+    ul {
+        text-align: right;
+    }
+
+    li {
+        display: inline-block;
+        border-bottom: 0px;
+        border-left: 1px solid black; 
+    }
+
+    .statment {
+        width: 33%;
+        display: inline-block;
+        vertical-align: top;
+    }
+}
